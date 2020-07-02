@@ -5,7 +5,7 @@ import (
 
 	u2fhost "github.com/marshallbrekka/go-u2fhost"
 	"github.com/stretchr/testify/assert"
-	"github.com/versent/saml2aws/v2/mocks"
+	"github.com/anoop2811/saml2aws/v2/mocks"
 )
 
 type fidoClientTests struct {

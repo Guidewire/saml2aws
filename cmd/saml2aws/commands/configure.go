@@ -6,12 +6,12 @@ import (
 	"path"
 
 	"github.com/pkg/errors"
-	"github.com/versent/saml2aws/v2"
-	"github.com/versent/saml2aws/v2/helper/credentials"
-	"github.com/versent/saml2aws/v2/pkg/cfg"
-	"github.com/versent/saml2aws/v2/pkg/flags"
-	"github.com/versent/saml2aws/v2/pkg/prompter"
-	"github.com/versent/saml2aws/v2/pkg/provider/onelogin"
+	"github.com/anoop2811/saml2aws/v2"
+	"github.com/anoop2811/saml2aws/v2/helper/credentials"
+	"github.com/anoop2811/saml2aws/v2/pkg/cfg"
+	"github.com/anoop2811/saml2aws/v2/pkg/flags"
+	"github.com/anoop2811/saml2aws/v2/pkg/prompter"
+	"github.com/anoop2811/saml2aws/v2/pkg/provider/onelogin"
 )
 
 // OneLoginOAuthPath is the path used to generate OAuth token in order to access OneLogin's API.

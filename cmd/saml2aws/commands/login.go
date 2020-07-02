@@ -10,12 +10,12 @@ import (
 	"github.com/aws/aws-sdk-go/service/sts"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
-	"github.com/versent/saml2aws/v2"
-	"github.com/versent/saml2aws/v2/helper/credentials"
-	"github.com/versent/saml2aws/v2/pkg/awsconfig"
-	"github.com/versent/saml2aws/v2/pkg/cfg"
-	"github.com/versent/saml2aws/v2/pkg/creds"
-	"github.com/versent/saml2aws/v2/pkg/flags"
+	"github.com/anoop2811/saml2aws/v2"
+	"github.com/anoop2811/saml2aws/v2/helper/credentials"
+	"github.com/anoop2811/saml2aws/v2/pkg/awsconfig"
+	"github.com/anoop2811/saml2aws/v2/pkg/cfg"
+	"github.com/anoop2811/saml2aws/v2/pkg/creds"
+	"github.com/anoop2811/saml2aws/v2/pkg/flags"
 )
 
 // Login login to ADFS
