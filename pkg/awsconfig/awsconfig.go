@@ -58,7 +58,7 @@ func (p *CredentialsProvider) CredsExists() (bool, error) {
 	err = p.ensureConfigExists()
 	if err != nil {
 		if os.IsNotExist(err) {
-			return false, nil
+			return false, errors.Wrapf(err, "file not present: %s", filename)
 		}
 		return false, errors.Wrapf(err, "unable to load file %s", filename)
 	}
@@ -150,6 +150,7 @@ func (p *CredentialsProvider) ensureConfigExists() error {
 			logger.WithField("filename", filename).Debug("File created")
 
 		}
+
 		return err
 	}
 

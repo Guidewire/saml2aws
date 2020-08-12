@@ -2,20 +2,21 @@ package commands
 
 import (
 	b64 "encoding/base64"
+	"fmt"
 	"log"
 	"os"
 
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/session"
-	"github.com/aws/aws-sdk-go/service/sts"
-	"github.com/pkg/errors"
-	"github.com/sirupsen/logrus"
 	"github.com/anoop2811/saml2aws/v2"
 	"github.com/anoop2811/saml2aws/v2/helper/credentials"
 	"github.com/anoop2811/saml2aws/v2/pkg/awsconfig"
 	"github.com/anoop2811/saml2aws/v2/pkg/cfg"
 	"github.com/anoop2811/saml2aws/v2/pkg/creds"
 	"github.com/anoop2811/saml2aws/v2/pkg/flags"
+	"github.com/aws/aws-sdk-go/aws"
+	"github.com/aws/aws-sdk-go/aws/session"
+	"github.com/aws/aws-sdk-go/service/sts"
+	"github.com/pkg/errors"
+	"github.com/sirupsen/logrus"
 )
 
 // Login login to ADFS

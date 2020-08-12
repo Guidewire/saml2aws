@@ -8,7 +8,6 @@ import (
 
 // LookupCredentials lookup an existing set of credentials and validate it.
 func LookupCredentials(loginDetails *creds.LoginDetails, provider string) error {
-
 	username, password, err := CurrentHelper.Get(loginDetails.URL)
 	if err != nil {
 		return err
