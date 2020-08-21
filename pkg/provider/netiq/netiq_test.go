@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"github.com/PuerkitoBio/goquery"
 	"github.com/stretchr/testify/require"
-	"github.com/anoop2811/saml2aws/v2/pkg/page"
+	"github.com/guidewire/saml2aws/v2/pkg/page"
 	"io/ioutil"
 	"net/url"
 	"testing"

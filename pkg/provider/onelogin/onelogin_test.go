@@ -3,9 +3,9 @@ package onelogin_test
 import (
 	"testing"
 
-	"github.com/anoop2811/saml2aws/v2/pkg/creds"
-	"github.com/anoop2811/saml2aws/v2/pkg/provider"
-	"github.com/anoop2811/saml2aws/v2/pkg/provider/onelogin"
+	"github.com/guidewire/saml2aws/v2/pkg/creds"
+	"github.com/guidewire/saml2aws/v2/pkg/provider"
+	"github.com/guidewire/saml2aws/v2/pkg/provider/onelogin"
 )
 
 func TestClient_Authenticate(t *testing.T) {

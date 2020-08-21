@@ -3,9 +3,9 @@ package shell
 import (
 	"fmt"
 	"time"
-	"github.com/anoop2811/saml2aws/v2/pkg/awsconfig"
-	"github.com/anoop2811/saml2aws/v2/pkg/cfg"
-	"github.com/anoop2811/saml2aws/v2/pkg/flags"
+	"github.com/guidewire/saml2aws/v2/pkg/awsconfig"
+	"github.com/guidewire/saml2aws/v2/pkg/cfg"
+	"github.com/guidewire/saml2aws/v2/pkg/flags"
 )
 
 // BuildEnvVars build an array of env vars in the format required for exec

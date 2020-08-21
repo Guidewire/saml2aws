@@ -7,9 +7,9 @@ import (
 
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
-	"github.com/anoop2811/saml2aws/v2"
-	"github.com/anoop2811/saml2aws/v2/helper/credentials"
-	"github.com/anoop2811/saml2aws/v2/pkg/flags"
+	"github.com/guidewire/saml2aws/v2"
+	"github.com/guidewire/saml2aws/v2/helper/credentials"
+	"github.com/guidewire/saml2aws/v2/pkg/flags"
 )
 
 // ListRoles will list available role ARNs

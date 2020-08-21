@@ -14,16 +14,16 @@ import (
 	"strings"
 	"time"
 
-	"github.com/anoop2811/saml2aws/v2/pkg/prompter"
+	"github.com/guidewire/saml2aws/v2/pkg/prompter"
 	"github.com/sirupsen/logrus"
 
 	"encoding/json"
 
 	"github.com/PuerkitoBio/goquery"
-	"github.com/anoop2811/saml2aws/v2/pkg/cfg"
-	"github.com/anoop2811/saml2aws/v2/pkg/creds"
-	"github.com/anoop2811/saml2aws/v2/pkg/page"
-	"github.com/anoop2811/saml2aws/v2/pkg/provider"
+	"github.com/guidewire/saml2aws/v2/pkg/cfg"
+	"github.com/guidewire/saml2aws/v2/pkg/creds"
+	"github.com/guidewire/saml2aws/v2/pkg/page"
+	"github.com/guidewire/saml2aws/v2/pkg/provider"
 	"github.com/pkg/errors"
 	"github.com/tidwall/gjson"
 )

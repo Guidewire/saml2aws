@@ -1,7 +1,7 @@
 package flags
 
 import (
-	"github.com/anoop2811/saml2aws/v2/pkg/cfg"
+	"github.com/guidewire/saml2aws/v2/pkg/cfg"
 )
 
 // CommonFlags flags common to all of the `saml2aws` commands (except `help`)
