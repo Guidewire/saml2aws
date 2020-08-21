@@ -1,4 +1,4 @@
-module github.com/guidewire/saml2aws/v2
+module github.com/guidewire/saml2aws
 
 go 1.14
 
